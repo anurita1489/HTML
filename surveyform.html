@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(12, 188, 91);
+        }
+        .main{
+            background-color: white;
+            width: 40%;
+            text-align: left;
+        }
+        .com{
+            padding-top: 20px;
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        #ki{
+            width: 80%;
+            height: 40px;
+            margin-bottom: -20px;
+        }
+        .com select{
+            width: 80%;
+            height: 40px;
+        }
+        .com button{
+            background-color:  rgb(12, 188, 91);
+            width: 540px;
+            height: 50px;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>GeeksforGeeks Survey Form</h1>
+        <div class="main">
+            <form>
+                <div class="com">
+                    <p>Name</p>
+                    <input type="text" placeholder="Enter your name" id="ki"><br>
+                </div>
+                <div class="com">
+                    <p>Email</p>
+                    <input type="email" placeholder="Enter your email" id="ki"><br>
+                </div>
+                <div class="com">
+                    <p>Age</p>
+                    <input type="email" placeholder="Enter your age" id="ki"><br>
+                </div>
+                <div class="com">
+                    <p>Which option best descibes you ?</p>
+                    <select>
+                        <option value="student">Student</option>
+                        <option value="student">Teacher</option>
+                    </select><br>
+                </div>
+                <div class="com">
+                    <p>Would you recommend GeeksforGeeks to a friend</p>
+                    <input type="radio" name="a"> Yes <br>
+                    <input type="radio" name="a"> No <br>
+                    <input type="radio" name="a"> May Be <br>
+                </div>
+                <div class="com">
+                    <p>Language prefeered</p>
+                    <input type="checkbox"> C<br>
+                    <input type="checkbox"> C++<br>
+                    <input type="checkbox"> C#<br>
+                    <input type="checkbox"> Java<br>
+                    <input type="checkbox"> Python<br>
+                    <input type="checkbox"> Javascript<br>
+                    <input type="checkbox"> React<br>
+                    <input type="checkbox"> Angular<br>
+                </div>
+                <div class="com">
+                    <p>Any comments or suggestion</p>
+                    <textarea rows="3" cols="70"></textarea>
+                </div>
+                <div class="com">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
