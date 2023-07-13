@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: aqua;
+            height: 400px;
+            width: 400px;
+        }
+        td{
+            padding-top: 20px;
+            padding-left: 20px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .bu{
+            margin-top: 30px;
+        }
+        #a1{
+            background-color:greenyellow;
+            border-radius: 8px;
+            padding: 10px;
+            margin-right: 20px;
+        }
+        #a2
+        {
+            background-color:lightskyblue;
+            border-radius: 8px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h2>
+            <u>Project Management</u>
+        </h2>
+        <div class="main">
+            <table>
+                <tr>
+                    <td>
+                        <label>Project Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Assigned to</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Er Marry Petision</option>
+                            <option>Group project</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label>Start Date</label>
+                    </td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>End Date</label>
+                    </td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Priority</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="p"> High
+                        <input type="radio" name="p"> Average
+                        <input type="radio" name="p"> Low
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        <textarea row="3" cols="30">
+                        </textarea>
+                    </td>
+                </tr>
+            </table>
+            <div class="bu">
+                <button type="submit" id ="a1">Submit</button>
+                <button type="submit" id ="a2">Clear</button>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
